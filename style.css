@@ -46,20 +46,6 @@ header img {
   display: inline-block;
 }
 
-.video {
-  display: block;
-  position: relative;
-  padding-top: 10%;
-  margin: 0 auto;
-
-}
-
-.video iframe {
-  display: block;
-  margin: 0 auto;
-  z-index: -999;
-}
-
 .links {
   position: fixed;
   right: -150px;
@@ -88,7 +74,31 @@ header img {
   font-size: 1em;
 }
 
-footer {
+.sponsors {
+  padding-top: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.sponsors img {
+  max-width: 15%;
+}
+
+.video {
+  display: block;
+  position: relative;
+  padding-top: 10%;
+  margin: 0 auto;
+
+}
+
+.video iframe {
+  display: block;
+  margin: 0 auto;
+  z-index: -999;
+}
+
+.video-credits {
   text-align: center;
   font-family: 'Arial', sans-serif;
   font-size: 11px;
